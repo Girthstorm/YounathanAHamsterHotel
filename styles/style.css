@@ -1,0 +1,51 @@
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Source Sans 3', sans-serif; */
+
+.resBtn {
+    border: 1px solid white;
+}
+
+.navDeco {
+    background-color: #000324;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.navDeco a {
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.hero-image {
+    background-image: url(../Assets/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.hero-text{
+    text-align:center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    background-color: #000324;
+    opacity: .8;
+    padding: 60px 190px;
+
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    
+}
+
+.hero-text p {
+    font-size: 16px;
+}
