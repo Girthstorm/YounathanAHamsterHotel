@@ -51,7 +51,7 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 .welcome {
-    /* padding: 100px 391px; */
+     padding: 100px 391px; 
    
 }
 
@@ -60,6 +60,7 @@ font-family: 'Source Sans 3', sans-serif; */
     height: 416px;
     object-fit: none;
     float: left;
+    padding-right: 20px;
 }
 
 .welcome h1 {
@@ -73,12 +74,12 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 .center-welcome {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     margin-left: 50vw;
     margin-right: 50vw;
     /* padding-top: 100px;
     padding-left: 25vw;
-    padding-right: 25vw; */
-    align-items: center;
+    padding-right: 25vw; 
+    align-items: center; */
 }
