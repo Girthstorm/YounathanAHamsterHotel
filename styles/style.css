@@ -51,11 +51,34 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 .welcome {
-    padding: 100px;
+    /* padding: 100px 391px; */
+   
 }
 
 .welcome-img {
     width: 369px;
     height: 416px;
     object-fit: none;
+    float: left;
+}
+
+.welcome h1 {
+    font-family: 'Dosis', sans-serif;
+}
+
+.welcome p {
+    margin-top: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+}
+
+.center-welcome {
+    display: flex;
+    justify-content: center;
+    margin-left: 50vw;
+    margin-right: 50vw;
+    /* padding-top: 100px;
+    padding-left: 25vw;
+    padding-right: 25vw; */
+    align-items: center;
 }
