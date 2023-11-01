@@ -27,7 +27,7 @@ font-family: 'Source Sans 3', sans-serif; */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    min-height: 500px;
 }
 
 .hero-text{
@@ -56,8 +56,8 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 .welcome-img {
-    width: 369px;
-    height: 416px;
+    max-width: 369px;
+    max-height: 416px;
     object-fit: none;
     float: left;
     padding-right: 20px;
@@ -74,12 +74,5 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 .center-welcome {
-    /* display: flex;
-    justify-content: center;
-    margin-left: 50vw;
-    margin-right: 50vw;
-    /* padding-top: 100px;
-    padding-left: 25vw;
-    padding-right: 25vw; 
-    align-items: center; */
+    
 }
