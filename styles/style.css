@@ -130,6 +130,9 @@ font-family: 'Source Sans 3', sans-serif; */
 .special-guy-btn {
     margin-top: 30px;
 }
+.packageImg{
+    
+}
 
 .packages h1 {
     margin-top: 106.5px;
@@ -138,3 +141,78 @@ font-family: 'Source Sans 3', sans-serif; */
     font-family: 'Dosis', sans-serif;
     font-size: 35px;
 }
+
+.centerCards {
+    display: flex;
+    flex-direction:column ;
+    border: 0;
+    align-items: center;
+    padding-top: 0;
+}
+
+.PKGTXT {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+}
+
+.amenitiesContainer {
+    background-image: url(/Assets/bg.jpg);
+    
+    height: 548px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.amenitiesHeader {
+    padding-top: 20px;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* .amenitiesSubtitle {
+
+} */
+.center-amenities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.amenitiesImgs {
+max-width: 150px;
+max-height: 115px;
+}
+
+.amenities p{
+    margin-top: 20px;
+    font-family: 'Source Sans 3', sans-serif; 
+    text-align: center;
+    color: #fff; 
+    }
+
+.amenities{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.amenitiesHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.valet {
+    max-width: 90px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+  }
