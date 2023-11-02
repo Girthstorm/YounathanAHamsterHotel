@@ -130,8 +130,16 @@ font-family: 'Source Sans 3', sans-serif; */
 .special-guy-btn {
     margin-top: 30px;
 }
+
+.packages {
+    margin-bottom: 95px;
+
+}
+
 .packageImg{
-    
+    object-fit:cover;
+    height: 100%; 
+    aspect-ratio:20/9;
 }
 
 .packages h1 {
@@ -165,7 +173,7 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 .amenitiesHeader {
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 35px;
     font-family: 'Dosis', sans-serif;
 }
@@ -193,7 +201,7 @@ max-height: 115px;
     }
 
 .amenities{
-    margin-top: 50px;
+    margin-top: 90px;
     display: flex;
     justify-content: space-between;
     
@@ -212,6 +220,73 @@ max-height: 115px;
     max-width: 90px;
 }
 
+.centerReserve {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.reserve {
+    background-color: #000324;
+    color: #fff;
+    border-radius: 0;
+    
+}
+
+.reserveTitle {
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 0;
+    font-weight: 300;
+}
+
+.reserveOpts {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.reserveOpts p {
+    margin-bottom: -2px;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.checkAvailBtn {
+    border-style: none;
+    background-color: #006EDB;
+    color: #fff;
+    font-family: 'Source Sans 3', sans-serif; 
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sizeInputs {
+    max-width: 175px;
+    min-height: 20px;
+}
+
+
+
+.footer {
+    background-color: #000324;
+    color: #E5FEFFff;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.borderFix {
+    border: 0;
+}
+
+
+.footerLogo {
+    margin-top: 10px;
+}
 
 @media only screen and (max-width: 600px) {
     
