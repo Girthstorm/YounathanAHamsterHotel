@@ -297,6 +297,62 @@ max-height: 115px;
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    
+
+.cardStyle{
+    width: 25rem;
+    height: 28rem;
+}
+@media only screen and (max-width: 1260px) {
+    .cardStyle {
+        width: 15rem ;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .KingBtn {
+        margin-top: 67px ;
+    }
   }
+
+  @media only screen and (max-width: 770px) {
+    .cardStyle {
+        width: 13rem ;
+        height: 26rem;
+        font-size: 11px;
+    }
+
+    .cardTxtStyle{
+        font-size: 10px;
+    }
+    .special-guy-btn {
+        margin-top: 50px;
+        
+    }
+    .hero-text{
+        
+        padding: 60px 100px;
+        
+    }
+   
+  }
+
+  @media only screen and (max-width: 680px) {
+    .hero-text{
+        
+        padding: 60px 20px;
+       
+    }
+    .navDeco a {
+        color: #fff;
+        font-size: 10px;
+        
+    }
+    .hero-text h1 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+    
+    .hero-text p {
+        font-size: 17px;
+    }
+ }
