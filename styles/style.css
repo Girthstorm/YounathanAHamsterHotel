@@ -1,6 +1,6 @@
 /* font-family: 'Dosis', sans-serif;
 font-family: 'Source Sans 3', sans-serif; */
-.resBtn {
+.nav-link:hover {
     outline: 2px solid white;
 }
 
@@ -124,6 +124,10 @@ font-family: 'Source Sans 3', sans-serif; */
 .card-footer{
     background-color: white;
     border: none;
+}
+
+.card-body {
+    padding-bottom: 0;
 }
 .cardStyle {
     width: 25rem;
