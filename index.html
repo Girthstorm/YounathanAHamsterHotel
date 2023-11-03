@@ -17,7 +17,44 @@
 
 <body>
   <!-- Start Navbar -->
-  <ul class="nav justify-content-center navDeco">
+
+  <nav class="navbar navbar-dark navDeco d-md-none">
+    <div class="container-fluid">
+        <img class="logoImg" src="./assets/Logo.png" alt="logo" style="width: 100px;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div class="d-md-none collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+    <div class="navDeco p-4">
+        <ul class="bottom nav justify-content-center">
+            <li class="nav-item">
+                <a class="navbarText nav-link" href="#">Overview</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbarText nav-link" href="#">Rooms</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbarText nav-link" href="#">Packages</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbarText nav-link" href="#">Amenities</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbarText nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbarText nav-link" href="#">Reserve</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+
+
+
+
+  <ul class="nav justify-content-center navDeco d-none d-md-flex">
     <li class="nav-item">
       <a class="nav-link " aria-current="page" href="#">Overview</a>
     </li>
@@ -27,8 +64,8 @@
     <li class="nav-item">
       <a class="nav-link" href="#">Packages</a>
     </li>
-    <li class="nav-item">
-      <img class="logo" src="./Assets/Logo.png" alt="La Petite Maison Logo">
+    <li class="nav-item center-small">
+      <img class="logo logo-resize" src="./Assets/Logo.png" alt="La Petite Maison Logo">
     </li>
 
 
@@ -93,57 +130,60 @@
           <h1>Our Rooms</h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <div class="card  btnRadius cardStyle">
-            <img src="./Assets/room1.jpg" class="card-img-top img-fluid" alt="Queen Room">
-            <div class="card-body ">
-              <h5 class="card-title">Queen Room</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary fw-bold cardTxtStyle">850 SQ FT room with city view</h6>
-              <ul class="card-text CLTextSize">
-                <li>One queen sized bed</li>
-                <li>Seed bar, fireplace and large balcony</li>
-                <li>Small kitchen with a refrigerator and stove</li>
-              </ul>
-              <a href="#" class="btn btn-primary btnRadius btnStyle">Reserve</a>
-            </div>
+
+      <div class="card-deck centerRooms">
+        <div class="card cardStyle ">
+          <img class="card-img-top img-fluid " src="./Assets/room1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Queen Room</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary fw-bold cardTxtStyle">850 SQ FT room with city view</h6>
+            <ul class="card-text CLTextSize">
+              <li>One queen sized bed</li>
+              <li>Seed bar, fireplace and large balcony</li>
+              <li>Small kitchen with a refrigerator and stove</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary btnRadius special-guy-btn">Reserve</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card  btnRadius cardStyle">
-            <img src="./Assets/room3.jpg" class="card-img-top img-fluid " alt="King Room">
-            <div class="card-body">
-              <h5 class="card-title">King Room</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary fw-bold cardTxtStyle">950 SQ FT with beach view</h6>
-              <ul class="card-text">
-                <li>One king sized bed</li>
-                <li>Seed bar, fireplace and large balcony</li>
-                <li>Small kitchen with a refrigerator and stove</li>
-              </ul>
-              <a href="#" class="btn btn-primary btnRadius btnStyle KingBtn">Reserve</a>
-            </div>
+        <div class="card cardStyle">
+          <img class="card-img-top img-fluid " src="./Assets/room3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">King Room</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary fw-bold cardTxtStyle">950 SQ FT with beach view</h6>
+            <ul class="card-text">
+              <li>One king sized bed</li>
+              <li>Seed bar, fireplace and large balcony</li>
+              <li>Small kitchen with a refrigerator and stove</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary btnRadius special-guy-btn">Reserve</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card  btnRadius cardStyle">
-            <img src="./Assets/room2.jpg" class="card-img-top img-fluid " alt="Beach Side Suite">
-            <div class="card-body ">
-              <h5 class="card-title">Beach Side Suite</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary fw-bold cardTxtStyle">1500 SQ FT Suite with beach view
-              </h6>
-              <ul class="card-text">
-                <li>One California king size bed</li>
-                <li>Second room with fireplace, hot tub, and balcony</li>
-                <li>Seed Bar and coffee station</li>
-                <li>Full kitchen with a refrigerator,stove, and island</li>
-              </ul>
-              <a href="#" class="btn btn-primary btnRadius special-guy-btn">Reserve</a>
-            </div>
+        <div class="card cardStyle">
+          <img class="card-img-top img-fluid " src="./Assets/room2.jpg" alt="Silly room for the Kings">
+          <div class="card-body">
+            <h5 class="card-title">Beach Side Suite</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary fw-bold cardTxtStyle">1500 SQ FT Suite with beach view
+            </h6>
+            <ul class="card-text">
+              <li>One California king size bed</li>
+              <li>Second room with fireplace, hot tub, and balcony</li>
+              <li>Seed Bar and coffee station</li>
+              <li>Full kitchen with a refrigerator,stove, and island</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary btnRadius special-guy-btn">Reserve</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
 
   <!-- End Our Rooms Section -->
 
@@ -152,28 +192,23 @@
     <h1>Packages</h1>
 
     <div class="centerCards">
-      <div class="card mb-0 border-0" style="max-width: 1137px;">
+      <div class="card mb-0 border-0  packageStyle" style="max-width: 1137px;">
         <div class="row g-0">
           <div class="col-md-6">
             <img src="./Assets/hamsterwedding.jpg" class="img-fluid packageImg" alt="Hamster in loveeee">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 ">
             <div class="card-body">
               <h5 class="card-title">Beach Wedding package</h5>
-              <p class="card-text"><small class="text-body-secondary"><a href="" class="text-decoration-none">Starting
-                    US
-                    $1,500.00</a></small></p>
-              <p class="card-text"><small class="text-body-secondary PKGTXT">Feel the warmth of the beach as the flames
-                  in your hearts ignite during our romantic beach side wedding. All wedding packages include catering,
-                  an open bar, and one tier wedding cake (9" Vanilla standard cake). A private dinner for your closets
-                  family members and friends will be provided after the ceremony.</small></p>
+              <p class="card-text"><small class="text-body-secondary"><a href="" class="text-decoration-none">Starting US $1,500.00</a></small></p>
+              <p class="card-text"><small class="text-body-secondary PKGTXT">Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony.</small></p>
             </div>
           </div>
         </div>
       </div>
-      <div class="card mb-0 border-0" style="max-width: 1137px;">
+      <div class="card mb-0 border-0 packageStyle" style="max-width: 1137px;">
         <div class="row g-0">
-          <div class="col-md-6 order-1">
+          <div class="col-md-6  funky-order-card">
             <img src="./Assets/hamsterspring.jpg" class="img-fluid packageImg" alt="Hamster in bloom">
           </div>
           <div class="col-md-6">
@@ -189,7 +224,7 @@
           </div>
         </div>
       </div>
-      <div class="card mb-0 border-0" style="max-width: 1137px;">
+      <div class="card mb-0 border-0 packageStyle" style="max-width: 1137px;">
         <div class="row g-0">
           <div class="col-md-6 ">
             <img src="./Assets/hamstercheese.jpg" class="img-fluid packageImg"
@@ -283,15 +318,6 @@
 
   <!-- Start Footer -->
 
-
-  <!-- End Footer -->
-
-  <!-- <div class="footer">
-    
-   
-    
-  </div> -->
-
   <div class="footer">
     <div class="spacing">
       <img src="/Assets/Logo.png" class="imgSpace" alt="Hamster Hotel Logo">
@@ -299,18 +325,7 @@
       <p class="borderFix">©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- End Footer -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>

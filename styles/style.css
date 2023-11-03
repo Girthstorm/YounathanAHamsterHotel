@@ -1,6 +1,5 @@
 /* font-family: 'Dosis', sans-serif;
 font-family: 'Source Sans 3', sans-serif; */
-
 .resBtn {
     outline: 2px solid white;
 }
@@ -16,12 +15,10 @@ font-family: 'Source Sans 3', sans-serif; */
 .navDeco a {
     color: #fff;
     font-size: 20px;
-
 }
 
 .navDeco img {
     padding-bottom: 5px;
-
 }
 
 .hero-image {
@@ -65,8 +62,6 @@ font-family: 'Source Sans 3', sans-serif; */
     width: 390px;
     height: 400px;
     object-fit: none;
-
-    /* padding-right: 20px; */
 }
 
 .welcome h1 {
@@ -82,7 +77,6 @@ font-family: 'Source Sans 3', sans-serif; */
 
 .cert-pad {
     width: 80%;
-
 }
 
 .Rooms {
@@ -107,10 +101,17 @@ font-family: 'Source Sans 3', sans-serif; */
     margin-bottom: 20px;
 }
 
+.size-img {
+    width: 50%;
+}
+
+.centerRooms {
+    display: flex;
+    flex-direction: row;
+}
 .roomCardSects {
     position: absolute;
     top: 0;
-
 }
 
 .btnRadius {
@@ -119,6 +120,14 @@ font-family: 'Source Sans 3', sans-serif; */
 
 .btnStyle {
     margin-top: 50px;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.cardStyle {
+    width: 25rem;
+    margin-right: 20px;
 }
 
 .card-title {
@@ -129,13 +138,10 @@ font-family: 'Source Sans 3', sans-serif; */
     font-family: 'Source Sans 3', sans-serif;
 }
 
-.special-guy-btn {
-    margin-top: 30px;
-}
+
 
 .packages {
     margin-bottom: 95px;
-
 }
 
 .packageImg {
@@ -165,9 +171,12 @@ font-family: 'Source Sans 3', sans-serif; */
     font-size: 16px;
 }
 
+.funky-order-card {
+    order: 1;
+}
+
 .amenitiesContainer {
     background-image: url(/Assets/bg.jpg);
-
     height: 548px;
     background-position: center;
     background-repeat: no-repeat;
@@ -180,9 +189,6 @@ font-family: 'Source Sans 3', sans-serif; */
     font-family: 'Dosis', sans-serif;
 }
 
-/* .amenitiesSubtitle {
-
-} */
 .center-amenities {
     display: flex;
     flex-direction: column;
@@ -271,8 +277,6 @@ font-family: 'Source Sans 3', sans-serif; */
     min-height: 20px;
 }
 
-
-
 .footer {
     background-color: #000324;
     color: #E5FEFF;
@@ -281,13 +285,10 @@ font-family: 'Source Sans 3', sans-serif; */
     font-family: 'Source Sans 3', sans-serif;
 }
 
-
-
 .borderFix {
     border-collapse: collapse;
     margin-bottom: 0px;
 }
-
 
 .spacing {
     padding-top: 20px;
@@ -301,10 +302,6 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 
-.cardStyle {
-    width: 25rem;
-    height: 28rem;
-}
 
 @media only screen and (max-width: 1260px) {
     .cardStyle {
@@ -316,6 +313,15 @@ font-family: 'Source Sans 3', sans-serif; */
     .KingBtn {
         margin-top: 67px;
     }
+}
+
+@media only screen and (max-width: 920px){
+    .amenitiesSubtitle {
+        padding-left: 10px;
+        justify-content: center;
+        font-size: 11px;
+    }
+
 }
 
 @media only screen and (max-width: 770px) {
@@ -335,24 +341,39 @@ font-family: 'Source Sans 3', sans-serif; */
     }
 
     .hero-text {
-
         padding: 60px 100px;
-
     }
-
+    .packageStyle {
+            width: 400px;
+    }
+    .funky-order-card {
+        order: 0;
+    }
+    .amenitiesImgs {
+        max-width: 120px;
+        max-height: 100px;
+    }
 }
+
+
 
 @media only screen and (max-width: 680px) {
     .hero-text {
-
         padding: 60px 20px;
-
     }
 
     .navDeco a {
         color: #fff;
         font-size: 10px;
 
+    }
+    .navDeco img {
+        padding-bottom: 0px;
+        
+    }
+    .center-small{
+        display: flex;
+        justify-content: center;
     }
 
     .hero-text h1 {
@@ -363,4 +384,23 @@ font-family: 'Source Sans 3', sans-serif; */
     .hero-text p {
         font-size: 17px;
     }
+
+    .cardStyle {
+        width: 7rem;
+        
+        font-size: 8px;
+    }
+    .cardTxtStyle {
+        font-size: 9px;
+    }
+    .special-guy-btn {
+        margin-top: 5px;
+
+    }
+    .logo-resize {
+        width: 70%;
+   
+    }
+    
 }
+
