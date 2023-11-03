@@ -48,7 +48,7 @@ font-family: 'Source Sans 3', sans-serif; */
 
 .hero-text h1 {
     font-size: 45px;
-    
+    font-weight: 300;
 }
 
 .hero-text p {
@@ -273,19 +273,28 @@ max-height: 115px;
 
 .footer {
     background-color: #000324;
-    color: #E5FEFFff;
+    color: #E5FEFF;
     justify-content: center;
     text-align: center;
-    
+    font-family: 'Source Sans 3', sans-serif; 
 }
+
+
 
 .borderFix {
-    border: 0;
+    border-collapse: collapse; 
+    margin-bottom: 0px;
 }
 
 
-.footerLogo {
-    margin-top: 10px;
+.spacing {
+   padding-top: 20px;
+   line-height: 20px;
+   font-size: 16;
+   padding-bottom: 80px;
+}
+.imgSpace{
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
