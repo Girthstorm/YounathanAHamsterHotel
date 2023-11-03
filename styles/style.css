@@ -9,20 +9,21 @@ font-family: 'Source Sans 3', sans-serif; */
     background-color: #000324;
     display: flex;
     align-items: flex-end;
-    padding-bottom:5px;
+    padding-bottom: 5px;
     font-family: 'Dosis', sans-serif;
 }
 
 .navDeco a {
     color: #fff;
     font-size: 20px;
-    
+
 }
 
 .navDeco img {
     padding-bottom: 5px;
-    
+
 }
+
 .hero-image {
     background-image: url(../Assets/header.jpg);
     background-position: center;
@@ -35,8 +36,8 @@ font-family: 'Source Sans 3', sans-serif; */
     min-height: 500px;
 }
 
-.hero-text{
-    text-align:center;
+.hero-text {
+    text-align: center;
     color: #fff;
     justify-content: center;
     align-items: center;
@@ -56,7 +57,7 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 .welcome {
-    padding-top: 100px; 
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -64,7 +65,7 @@ font-family: 'Source Sans 3', sans-serif; */
     width: 390px;
     height: 400px;
     object-fit: none;
-    
+
     /* padding-right: 20px; */
 }
 
@@ -80,12 +81,12 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 .cert-pad {
-   width: 80%;
-    
+    width: 80%;
+
 }
 
 .Rooms {
-    background-image: url(../Assets/bg2.jpg); 
+    background-image: url(../Assets/bg2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,6 +96,7 @@ font-family: 'Source Sans 3', sans-serif; */
     align-items: center;
     height: 738px;
 }
+
 .roomTitle {
     display: flex;
     justify-content: center;
@@ -106,9 +108,9 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 .roomCardSects {
-    position:absolute;
+    position: absolute;
     top: 0;
-     
+
 }
 
 .btnRadius {
@@ -136,10 +138,10 @@ font-family: 'Source Sans 3', sans-serif; */
 
 }
 
-.packageImg{
-    object-fit:cover;
-    height: 100%; 
-    aspect-ratio:20/9;
+.packageImg {
+    object-fit: cover;
+    height: 100%;
+    aspect-ratio: 20/9;
 }
 
 .packages h1 {
@@ -152,7 +154,7 @@ font-family: 'Source Sans 3', sans-serif; */
 
 .centerCards {
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     border: 0;
     align-items: center;
     padding-top: 0;
@@ -165,7 +167,7 @@ font-family: 'Source Sans 3', sans-serif; */
 
 .amenitiesContainer {
     background-image: url(/Assets/bg.jpg);
-    
+
     height: 548px;
     background-position: center;
     background-repeat: no-repeat;
@@ -189,25 +191,25 @@ font-family: 'Source Sans 3', sans-serif; */
 }
 
 .amenitiesImgs {
-max-width: 150px;
-max-height: 115px;
+    max-width: 150px;
+    max-height: 115px;
 }
 
-.amenities p{
+.amenities p {
     margin-top: 20px;
-    font-family: 'Source Sans 3', sans-serif; 
+    font-family: 'Source Sans 3', sans-serif;
     text-align: center;
-    color: #fff; 
-    }
+    color: #fff;
+}
 
-.amenities{
+.amenities {
     margin-top: 90px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.amenitiesHead{
+.amenitiesHead {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -232,7 +234,7 @@ max-height: 115px;
     background-color: #000324;
     color: #fff;
     border-radius: 0;
-    
+
 }
 
 .reserveTitle {
@@ -258,7 +260,7 @@ max-height: 115px;
     border-style: none;
     background-color: #006EDB;
     color: #fff;
-    font-family: 'Source Sans 3', sans-serif; 
+    font-family: 'Source Sans 3', sans-serif;
     margin-top: 20px;
     font-size: 20px;
     font-weight: 500;
@@ -276,83 +278,89 @@ max-height: 115px;
     color: #E5FEFF;
     justify-content: center;
     text-align: center;
-    font-family: 'Source Sans 3', sans-serif; 
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 
 
 .borderFix {
-    border-collapse: collapse; 
+    border-collapse: collapse;
     margin-bottom: 0px;
 }
 
 
 .spacing {
-   padding-top: 20px;
-   line-height: 20px;
-   font-size: 16;
-   padding-bottom: 80px;
+    padding-top: 20px;
+    line-height: 20px;
+    font-size: 16;
+    padding-bottom: 80px;
 }
-.imgSpace{
+
+.imgSpace {
     margin-bottom: 20px;
 }
 
 
-.cardStyle{
+.cardStyle {
     width: 25rem;
     height: 28rem;
 }
+
 @media only screen and (max-width: 1260px) {
     .cardStyle {
-        width: 15rem ;
+        width: 15rem;
         font-size: 12px;
         text-align: left;
     }
 
     .KingBtn {
-        margin-top: 67px ;
+        margin-top: 67px;
     }
-  }
+}
 
-  @media only screen and (max-width: 770px) {
+@media only screen and (max-width: 770px) {
     .cardStyle {
-        width: 13rem ;
+        width: 13rem;
         height: 26rem;
         font-size: 11px;
     }
 
-    .cardTxtStyle{
+    .cardTxtStyle {
         font-size: 10px;
     }
+
     .special-guy-btn {
         margin-top: 50px;
-        
-    }
-    .hero-text{
-        
-        padding: 60px 100px;
-        
-    }
-   
-  }
 
-  @media only screen and (max-width: 680px) {
-    .hero-text{
-        
-        padding: 60px 20px;
-       
     }
+
+    .hero-text {
+
+        padding: 60px 100px;
+
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+    .hero-text {
+
+        padding: 60px 20px;
+
+    }
+
     .navDeco a {
         color: #fff;
         font-size: 10px;
-        
+
     }
+
     .hero-text h1 {
         font-size: 30px;
         font-weight: 300;
     }
-    
+
     .hero-text p {
         font-size: 17px;
     }
- }
+}
